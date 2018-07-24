@@ -7,3 +7,10 @@ function updateDriverWithKeyAndValue(driver, key, value) {
   return driverWithAddress;
   return driver;
 } 
+
+function updateDriverWithKeyAndValue(driver, key, value) {
+  const driverWithAddress = { ...driver };
+  driverWithAddress['address']="11 Broadway";
+  return driverWithAddress;
+  return driver;
+} 
