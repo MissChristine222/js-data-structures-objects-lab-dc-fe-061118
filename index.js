@@ -2,7 +2,7 @@
 const driver = { name: 'Sam'}
 
 function updateDriverWithKeyAndValue(driver, key, value) {
-  const driverWithAddress = {...driver};
+  const driverWithAddress = { ...driver };
   driverWithAddress[address]="11 Broadway";
   
 }
