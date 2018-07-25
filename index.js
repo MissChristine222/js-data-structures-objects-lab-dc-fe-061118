@@ -19,3 +19,10 @@ function deleteFromDriverByKey(driver, key) {
   return noDriver;
   return driver;
 } 
+
+function deleteFromDriverByKey(driver, key) {
+  const noDriver = { ...driver };
+  delete noDriver.name;
+  return noDriver;
+  return driver;
+} 
